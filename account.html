@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Welcome</a>
+
+      </div>
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="project.html">Back to home page</a>
+        </li>
+      </ul>
+
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Create an account!</h1>
+        <p>Please enter your email address and create you new password</p>
+
+      </div>
+      <form class="form-group" action="index.html" method="post">
+        <label for="userem">Email: </label>
+        <input class="form-control" type="email" name="userem" placeholder="Email">
+        <label for="userpass">Passowrd:</label>
+        <input class="form-control" type="password" name="userpass" placeholder="Passowrd">
+        <label for="userpass">Re-type Passowrd:</label>
+        <input class="form-control" type="password" name="userpass" placeholder="Passowrd">
+
+        <div class="checkbox">
+          <label for="usercheck">
+            <input type="checkbox" name="usercheck">
+            Keep Me Logged In
+          </label>
+
+        </div>
+        <button type="submit" class="btn btn-success" name="button">Create Account</button>
+        <button type="submit" class="btn btn-danger" name="button">Cancel</button>
+
+
+
+      </form>
+
+    </div>
+
+
+
+  </body>
+</html>
